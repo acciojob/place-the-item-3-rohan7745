@@ -4,13 +4,5 @@
     border: 1px solid #000;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .block {
-    width: calc(33.33% - 10px); /* 3 blocks with spacing in between */
-    height: 100px;
-    margin-bottom: 10px;
-    background-color: #FF5733;
-    box-sizing: border-box;
+    justify-content: space-evenly;
   }
